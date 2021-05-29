@@ -1,4 +1,4 @@
-# awesome-tech-content
+# Awesome Tech Content
 
 This is my personally curated list of books, blog posts, essays, papers, articles,
 keynotes, talks and any kind of tech-related content that I find awesome.
@@ -7,7 +7,11 @@ Since this is a personal list of things that I find interesting I'm not really a
 looking for contributions but, I don't know, if you have found something awesome on the
 internet and want to share with me and I like it, yeah, I might add it here I guess 😬
 
----
+- [Awesome Tech Content](#awesome-tech-content)
+  - [Software Engineering](#software-engineering)
+  - [Resilience Engineering](#resilience-engineering)
+  - [Negotiation](#negotiation)
+  - [Historical](#historical)
 
 ## Software Engineering
 
@@ -68,8 +72,8 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
 
   A short article on [mailinator.com](https://www.mailinator.com/) architecture.
   Warning, it is from 2008 so highly dated. Yet, it is an interesting story about how a
-  Java App running on a box that's worse than a current-gen `t2.micro` was still
-  processing `75 reqps`, handling DDOS and supposedly had `99.99%` availability. Surely
+  Java App running on a box that's worse than a current-gen t2.micro was still
+  processing 75 reqps, handling DDOS and supposedly had 99.99% availability. Surely
   the application is relatively simple and most modern business have very different
   constraints - if nothing else, the right HA architecture can make mantaining your
   service as a team much easier. At the same time, while it is very hard to compare
