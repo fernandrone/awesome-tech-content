@@ -16,6 +16,20 @@ not really be taking recommendations 😬
 
 ## Software Engineering
 
+- [Configuration Is (riskier than?) Code](https://www.youtube.com/watch?v=NcT8-IoImXE)
+  · _Jamie Wilkinson_ · Video
+
+    Great presentation! It asks if there are really any fundamental differences between
+    _code_ and _configuration_ (there isn't) and presents evidence that changing what we
+    perceive to be configuration is riskier than code. Ironically, there's much better
+    tooling and rigour involved when working with code, as often configuration won't
+    have tests, static checkers or even any form of version control. I believe
+    [Accelerate](https://www.oreilly.com/library/view/accelerate/9781457191435/)
+    corroborates this: _"keeping system and application configuration in version control
+    was more highly correlated with software delivery performance than keeping
+    application code in version control. Configuration is normally considered a
+    secondary concern [...] but our research shows that this is a misconception."_
+
 - [Are We Really
   Engineers?](https://www.hillelwayne.com/post/crossover-project/are-we-really-engineers/)
   · _Hillel Wayne_ · Essay
