@@ -12,25 +12,40 @@ not really be taking recommendations 😬
   - [Software Engineering](#software-engineering)
   - [Resilience Engineering](#resilience-engineering)
   - [Math](#math)
-  - [Negotiation](#negotiation)
-  - [Hiring](#hiring)
+  - [Hiring & Recruiting](#hiring--recruiting)
+  - [Career & Negotiation](#career--negotiation)
   - [Venture Capital](#venture-capital)
   - [Historical](#historical)
 
 ## Software Engineering
 
-- [Queues Don't Fix Overload](https://ferd.ca/queues-don-t-fix-overload.html) ·
-  _Fred Hebert_ · Article
+- [Falsehoods Programmers Believe About
+  Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+  · _Patrick McKenzie_ · Article
+
+    This is just to good to not be here. I remember about it every time I have to type
+    my name in an Airline's website and it doesn't fit.
+
+- [So you think you can validate email addresses? A journey down
+  RFC5321](https://www.youtube.com/watch?v=xxX81WmXjPg&t=542s) · _Stavros Korokithakis_
+  · Video
+
+    Like the previous article, but instead of being about names, it is about email
+    adresses. My takeway is that unless you are _the_ domain expert, make the bare
+    minimum ammount of assumptions and validations on any data you have to handle.
+
+- [Queues Don't Fix Overload](https://ferd.ca/queues-don-t-fix-overload.html) · _Fred
+  Hebert_ · Article
 
     A convincing article on why queues are not the end-all solution to rate limiting
     your slow web application. If you do apply it as a staple overload reliability
     mechanism, you _will_ get much more complex systems that _once they fail_ will fail
     much harder, so think carefully. It also introduced me to the concepts of
-    back-pressure and load-shedding: _"You'll need to pick what has
-    to give whenever stuff goes bad. You'll have to pick between blocking on input
-    (back-pressure), or dropping data on the floor (load-shedding). And that happens all
-    the time in the real world, we just don't want to do it as developers, as if it were
-    an admission of failure._"
+    back-pressure and load-shedding: _"You'll need to pick what has to give whenever
+    stuff goes bad. You'll have to pick between blocking on input (back-pressure), or
+    dropping data on the floor (load-shedding). And that happens all the time in the
+    real world, we just don't want to do it as developers, as if it were an admission of
+    failure._"
 
 - [Configuration Is (riskier than?) Code](https://www.youtube.com/watch?v=NcT8-IoImXE) ·
   _Jamie Wilkinson_ · Video
@@ -48,7 +63,7 @@ not really be taking recommendations 😬
 
 - [Are We Really
   Engineers?](https://www.hillelwayne.com/post/crossover-project/are-we-really-engineers/)
-  · _Hillel Wayne_ · Essay
+  · _Hillel Wayne_ · Article
 
     Part 1 of Hillel's "Crossover Project". A thoughtful look into the old-age question
     of "is Software Engineering _really_ Engineering" (which is unfortunately often
@@ -136,9 +151,9 @@ not really be taking recommendations 😬
 
 ## Math
 
-- [What happens when you add a new teller?
-](https://www.johndcook.com/blog/2008/10/21/what-happens-when-you-add-a-new-teller/) · _John D. Cook_
-  · Article
+- [What happens when you add a new
+  teller?](https://www.johndcook.com/blog/2008/10/21/what-happens-when-you-add-a-new-teller/)
+  · _John D. Cook_ · Article
 
   This article explores a typical example from queuing theory (disclaimer, I didn't
   really study queuing theory besides reading a few articles such as this one). The
@@ -152,22 +167,7 @@ not really be taking recommendations 😬
   to saturation doubling your workers might give you a much larger performance boost
   than expected.
 
-## Negotiation
-
-- [Salary Negotiation: Make More Money, Be More
-  Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) · _Patrick McKenzie_
-  · Essay
-
-    Very good article on Salary Negotiation for Software Engineers. If you read _one_
-    piece on the topic, make it this one!
-
-- [Sonia Gupta and Corey Quinn - Embarrassingly Large Numbers: Salary Negotiation for
-  Humans](https://www.youtube.com/watch?v=jK6yrvsSaFs) · _Corey Quinn & Sonia Gupta_ ·
-  Video
-
-    Fun video on the topic.
-
-## Hiring
+## Hiring & Recruiting
 
 - [My Lessons from Interviewing 400+ Engineers Over Three
   Startups](https://review.firstround.com/my-lessons-from-interviewing-400-engineers-over-three-startups)
@@ -197,6 +197,33 @@ not really be taking recommendations 😬
     disvantadge. The solution? Level the playing field by telling everyone what to
     expect of your process in advance.
 
+## Career & Negotiation
+
+- [Salary Negotiation: Make More Money, Be More
+  Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) · _Patrick McKenzie_
+  · Article
+
+    Very good article on Salary Negotiation for Software Engineers. If you read _one_
+    piece on the topic, make it this one!
+
+- [Sonia Gupta and Corey Quinn - Embarrassingly Large Numbers: Salary Negotiation for
+  Humans](https://www.youtube.com/watch?v=jK6yrvsSaFs) · _Corey Quinn & Sonia Gupta_ ·
+  Video
+
+    Fun video on the topic.
+
+- [Don't Call Yourself A Programmer, And Other Career
+  Advice](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/) ·
+  _Patrick McKenzie_ · Article
+
+    Good piece on the realities of the industry and how to present oneself. Somewhat
+    US-centric but I think it applies to other markets. There are a lot of great advice.
+    Amongst them _"Engineers are hired to create business value, not to program things"_
+    (which ought to be obvious, but very good to remember) and _"Read ad. Send in
+    resume.  Go to job interview.  Receive offer. is the exception, not the typical
+    case, for getting employment” (which is **not** obvious at all for the majority of
+    people).
+
 ## Venture Capital
 
 - [The Holloway Guide to Equity
@@ -204,8 +231,8 @@ not really be taking recommendations 😬
 
   A very, very, very long but very compreehensive resource on Equity. Of course some of
   the information, specially tax-related, is geographically bounded to the US, but I
-  think it is still a very useful read if you might earn or negotiate any form
-  of Equity anywhere in the world.
+  think it is still a very useful read if you might earn or negotiate any form of Equity
+  anywhere in the world.
 
 ## Historical
 
