@@ -11,12 +11,26 @@ not really be taking recommendations 😬
 - [Awesome Tech Content](#awesome-tech-content)
   - [Software Engineering](#software-engineering)
   - [Resilience Engineering](#resilience-engineering)
+  - [Math](#math)
   - [Negotiation](#negotiation)
   - [Hiring](#hiring)
   - [Venture Capital](#venture-capital)
   - [Historical](#historical)
 
 ## Software Engineering
+
+- [Queues Don't Fix Overload](https://ferd.ca/queues-don-t-fix-overload.html) ·
+  _Fred Hebert_ · Article
+
+    A convincing article on why queues are not the end-all solution to rate limiting
+    your slow web application. If you do apply it as a staple overload reliability
+    mechanism, you _will_ get much more complex systems that _once they fail_ will fail
+    much harder, so think carefully. It also introduced me to the concepts of
+    back-pressure and load-shedding: _"You'll need to pick what has
+    to give whenever stuff goes bad. You'll have to pick between blocking on input
+    (back-pressure), or dropping data on the floor (load-shedding). And that happens all
+    the time in the real world, we just don't want to do it as developers, as if it were
+    an admission of failure._"
 
 - [Configuration Is (riskier than?) Code](https://www.youtube.com/watch?v=NcT8-IoImXE) ·
   _Jamie Wilkinson_ · Video
@@ -119,6 +133,24 @@ not really be taking recommendations 😬
     Software Engineers working with complex distributed systems, gives you an
     alternative technique and drops a lot of links so you can spend a whole afternoon
     reading about the topic.
+
+## Math
+
+- [What happens when you add a new teller?
+](https://www.johndcook.com/blog/2008/10/21/what-happens-when-you-add-a-new-teller/) · _John D. Cook_
+  · Article
+
+  This article explores a typical example from queuing theory (disclaimer, I didn't
+  really study queuing theory besides reading a few articles such as this one). The
+  whole idea is that, given the problem's constraints, the difference between having a
+  single teller in a bank would make customers wait nearly five hours on average. Add a
+  second teller and the average wait time **goes down to just 3 minutes**! What? There's
+  some funny math involved but the results can be extrapolated to workers consuming from
+  a queue, and it's something that can happen if the queue is close to saturation (i.e.
+  the processing rate is very close to the consumption rate). I think the conclusions
+  here are a) avoid leaving your queues close to saturation and b) if they **are** close
+  to saturation doubling your workers might give you a much larger performance boost
+  than expected.
 
 ## Negotiation
 
