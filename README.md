@@ -12,12 +12,14 @@ not really be taking recommendations 😬
   - [Software Engineering](#software-engineering)
   - [Resilience Engineering](#resilience-engineering)
   - [Negotiation](#negotiation)
+  - [Hiring](#hiring)
+  - [Venture Capital](#venture-capital)
   - [Historical](#historical)
 
 ## Software Engineering
 
-- [Configuration Is (riskier than?) Code](https://www.youtube.com/watch?v=NcT8-IoImXE)
-  · _Jamie Wilkinson_ · Video
+- [Configuration Is (riskier than?) Code](https://www.youtube.com/watch?v=NcT8-IoImXE) ·
+  _Jamie Wilkinson_ · Video
 
     Great presentation! It asks if there are really any fundamental differences between
     _code_ and _configuration_ (there isn't) and presents evidence that changing what we
@@ -88,8 +90,8 @@ not really be taking recommendations 😬
   A short article on [mailinator.com](https://www.mailinator.com/) architecture.
   Warning, it is from 2008 so highly dated. Yet, it is an interesting story about how a
   Java App running on a box that's worse than a current-gen t2.micro was still
-  processing 75 reqps, handling DDOS and supposedly had 99.99% availability. Surely
-  the application is relatively simple and most modern business have very different
+  processing 75 reqps, handling DDOS and supposedly had 99.99% availability. Surely the
+  application is relatively simple and most modern business have very different
   constraints - if nothing else, the right HA architecture can make mantaining your
   service as a team much easier. At the same time, while it is very hard to compare
   workloads, I'm used seeing microsservices being provisioned with 10 times as much
@@ -133,9 +135,50 @@ not really be taking recommendations 😬
 
     Fun video on the topic.
 
+## Hiring
+
+- [My Lessons from Interviewing 400+ Engineers Over Three
+  Startups](https://review.firstround.com/my-lessons-from-interviewing-400-engineers-over-three-startups)
+  · _Marco Rogers_ · Article
+
+    My favorite article about hiring software engineers. There's a lot to take from it,
+    but my favorite is that, as a hiring manager at a fast growing company, you probably
+    need to be interviewing a lot more. Hiring is a noisy process and the steps at the
+    beginning of the funnel have very low confidence (and, in my opinion, are easier to
+    gatekeep); so if you want to build a strong team you need to create a system that
+    allows the team to interview multiple candidates for each hire. Instead, I have met
+    hiring managers at startups that were more worried about creating barriers to filter
+    out candidates.
+
+- [Tell candidates what to expect from your job
+  interviews](https://jvns.ca/blog/2020/06/30/tell-candidates-what-to-expect-from-your-job-interviews/)
+  · _Julia Evans_ · Article
+
+    Well, what's on the title! It helps to "level the playing field", so to speak. I
+    mean, Stanford has a [course that prepares students for the standard Software
+    Interview](https://web.stanford.edu/class/cs9/), and students from top-level
+    Universities in other countries will gain similar advantages through networking. I'm
+    confident that a lot of candidates for any given company are either hired _because
+    of_ a referral _or_ will have a friend inside give them some tips about the hiring
+    process. All this means that candidates without a strong networking and/or a
+    non-traditional background and/or URMs (a lot of overlap here) will be at a
+    disvantadge. The solution? Level the playing field by telling everyone what to
+    expect of your process in advance.
+
+## Venture Capital
+
+- [The Holloway Guide to Equity
+  Compensation](https://www.holloway.com/g/equity-compensation)
+
+  A very, very, very long but very compreehensive resource on Equity. Of course some of
+  the information, specially tax-related, is geographically bounded to the US, but I
+  think it is still a very useful read if you might earn or negotiate any form
+  of Equity anywhere in the world.
+
 ## Historical
 
-The references here are mostly kept as historical curiosity.
+The references here are mostly kept for their historical significance but likely don't
+have much application on modern technology.
 
 - [Debunking the 'Expensive Procedure Call' Myth, or, Procedure Call Implementations
   Considered Harmful, or, Lambda: The Ultimate
