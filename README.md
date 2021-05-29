@@ -17,7 +17,7 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
 
 - [Are We Really
   Engineers?](https://www.hillelwayne.com/post/crossover-project/are-we-really-engineers/)
-  · _Hillel Wayne_ · Essay.
+  · _Hillel Wayne_ · Essay
 
     Part 1 of Hillel's "Crossover Project". A thoughtful look into the old-age question
     of "is Software Engineering _really_ Engineering" (which is unfortunately often
@@ -28,7 +28,7 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
     Us"](https://www.hillelwayne.com/post/crossover-project/what-we-can-learn/).
 
 - [Serverless Computing: One Step Forward, Two Steps
-  Back](https://arxiv.org/pdf/1812.03651.pdf) · _Hellerstein et al_ · Paper.
+  Back](https://arxiv.org/pdf/1812.03651.pdf) · _Hellerstein et al_ · Paper
 
     I've read it a long time ago and, being from 2018, some things might be outdated.
     Some of the things I remember is while AWS Lambda has its strenghts (pay-as-you-go,
@@ -42,7 +42,7 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
 - Understanding Clojure's Persistent Vectors ([pt.
   1](https://hypirion.com/musings/understanding-persistent-vector-pt-1) / [pt.
   2](https://hypirion.com/musings/understanding-persistent-vector-pt-2))  · _Jean Niklas
-  L'orange_ · Article.
+  L'orange_ · Article
 
     Interesting articles on Clojure's Persistent Vectors, a data structure invented by
     Rich Hickey _which gives practically O(1) runtime for appends, updates, lookups and
@@ -58,7 +58,7 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
 
 - [Command-line Tools can be 235x Faster than your Hadoop
   Cluster](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
-  · _Adam Drake_ · Article.
+  · _Adam Drake_ · Article
 
   Well, exactly what the title says! Fun examples of how an intelligent use of basic
   unix commands such as `cat` or `awk` in a modern laptop can yield better results than
@@ -68,7 +68,7 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
   the Hadoop processing took about 26 minutes (processing speed of about 1.14MB/sec)._
 
 - [Mailinator Architecture](http://highscalability.com/mailinator-architecture) · _Todd
-  Hoff_ · Article.
+  Hoff_ · Article
 
   A short article on [mailinator.com](https://www.mailinator.com/) architecture.
   Warning, it is from 2008 so highly dated. Yet, it is an interesting story about how a
@@ -84,7 +84,7 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
 ## Resilience Engineering
 
 - [The Problem with the 5 Whys](https://qualitysafety.bmj.com/content/26/8/671) · _Alan
-  J Card_ · Paper.
+  J Card_ · Paper
 
     Best critique of the "5 Whys" technique that I have ever read. Essentially, it
     _"insists on a single root cause as the target for solutions and assumes that the
@@ -95,7 +95,7 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
     independently at the same incident.
 
 - [The Infinite Hows](https://www.oreilly.com/radar/the-infinite-hows/) · _John Allspaw_
-  · Article.
+  · Article
 
     If you have enjoyed the previous paper about the 5 Whys and want more, this is a
     good read. John explains why the 5 Whys also isn't that much of a good idea for
@@ -107,14 +107,14 @@ internet and want to share with me and I like it, yeah, I might add it here I gu
 
 - [Salary Negotiation: Make More Money, Be More
   Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) · _Patrick McKenzie_
-  · Essay.
+  · Essay
 
     Very good article on Salary Negotiation for Software Engineers. If you read _one_
     piece on the topic, make it this one!
 
 - [Sonia Gupta and Corey Quinn - Embarrassingly Large Numbers: Salary Negotiation for
   Humans](https://www.youtube.com/watch?v=jK6yrvsSaFs) · _Corey Quinn & Sonia Gupta_ ·
-  Video.
+  Video
 
     Fun video on the topic.
 
