@@ -3,9 +3,10 @@
 This is my personally curated list of books, blog posts, essays, papers, articles,
 keynotes, talks and any kind of tech-related content that I find awesome.
 
-Since this is a personal list of things that I find interesting I'm not really actively
-looking for contributions but, I don't know, if you have found something awesome on the
-internet and want to share with me and I like it, yeah, I might add it here I guess 😬
+If you have found something awesome on the internet and want to share with me, sure, I
+like learning about stuff! I can easily be reached by the email on my GitHub profile or
+on Twitter. But unlike most `awesome-stuff` repositories this is a personal list so I'll
+not really be taking recommendations 😬
 
 - [Awesome Tech Content](#awesome-tech-content)
   - [Software Engineering](#software-engineering)
