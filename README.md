@@ -23,16 +23,19 @@ not really be taking recommendations 😬
   Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
   · _Patrick McKenzie_ · Article
 
-    This is just to good to not be here. I remember about it every time I have to type
-    my name in an Airline's website and it doesn't fit.
+    This is just to good to not be here. Names are messy, and very likely _any_
+    assumption you make about them is wrong. I remember about it every time I have to
+    type my name in an Airline's website and it doesn't fit.
 
 - [So you think you can validate email addresses? A journey down
   RFC5321](https://www.youtube.com/watch?v=xxX81WmXjPg&t=542s) · _Stavros Korokithakis_
   · Video
 
     Like the previous article, but instead of being about names, it is about email
-    adresses. My takeway is that unless you are _the_ domain expert, make the bare
-    minimum ammount of assumptions and validations on any data you have to handle.
+    adresses. The very real answer is "check if there's an `@` and then try to send it
+    an email; if it doesn't bounce it's good". And no, regex is **not** the answer. My
+    takeway is that unless you are _the_ domain expert, make the bare minimum ammount of
+    assumptions and validations on any data you have to handle.
 
 - [Queues Don't Fix Overload](https://ferd.ca/queues-don-t-fix-overload.html) · _Fred
   Hebert_ · Article
