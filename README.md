@@ -23,7 +23,7 @@ not really be taking recommendations 😬
   Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
   · _Patrick McKenzie_ · Article
 
-    This is just to good to not be here. Names are messy, and very likely _any_
+    This is just too good to not be here. Names are messy, and very likely _any_
     assumption you make about them is wrong. I remember about it every time I have to
     type my name in an Airline's website and it doesn't fit.
 
