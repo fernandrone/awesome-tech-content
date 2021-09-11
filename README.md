@@ -19,6 +19,14 @@ not really be taking recommendations 😬
 
 ## Software Engineering
 
+- [Autopilot: workload autoscaling at Google](https://research.google/pubs/pub49174/)
+  · _Rzadca, Krzysztof, et al._ · Paper
+
+    Paper about a vertical autoscaler developed by Google for Borg workloads.
+    The math may or may not interest you but one thing that I liked is their
+    admitance that estimating resources is _hard_ that users are incentived to
+    overstimate workloads.
+
 - [Falsehoods Programmers Believe About
   Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
   · _Patrick McKenzie_ · Article
